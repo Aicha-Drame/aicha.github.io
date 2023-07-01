@@ -1,0 +1,190 @@
+
+
+  
+ /*Les css du cms*/
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+    </style>
+ 
+  
+  /* pour mettre les images à la ligne suivante   
+  img {
+  
+ 
+display: block;
+  
+ 
+margin-bottom: 20px;
+} */
+
+s
+    
+ 
+/*
+.logo img{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+nav {
+	width: 100px;
+	display: block;
+	padding:20px 15px ;
+	font-family: Arial;
+	text-align: center;
+
+}
+
+nav a:hover{
+	background: purple;
+	transfo*/
+
+/*Le logo aligné aux liens */
+	.logo-and-links {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .logo-and-links ul {
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	  }
+	  
+	  .logo-and-links ul li {
+		margin-left: 20px;
+	  }
+	  
+	  .logo-and-links ul li:first-child {
+		margin-left: 0;
+	  }
+	
+	  ul a li{
+		disp
+	  }
+	  /*CSS Formulaire de cntact*/
+    form {
+      border: 1px solid blue; /* Ajoute une bordure de couleur bleue */
+      padding: 20px; /* Ajoute un espace intérieur de 20 pixels pour séparer les champs du formulaire de la bordure */
+      width: 80%; /* Définit une largeur de 80% pour le formulaire */
+      margin: auto; /* Centre le formulaire horizontalement sur la page */
+    }
+    
+    label {
+      display: block; /* Affiche chaque label sur une ligne séparée */
+      margin-bottom: 10px; /* Ajoute un espace de 10 pixels entre chaque label et le champ de formulaire correspondant */
+    }
+    
+    input[type="text"], input[type="email"], textarea {
+      width: 100%; /* Définit une largeur de 100% pour les champs de formulaire */
+      padding: 10px; /* Ajoute un espace intérieur de 10 pixels pour chaque champ de formulaire */
+      border: 1px solid blue; /* Ajoute une bordure de couleur bleue à chaque champ de formulaire */
+      border-radius: 5px; /* Ajoute une bordure arrondie de 5 pixels à chaque champ de formulaire */
+      margin-bottom: 20px; /* Ajoute un espace de 20 pixels entre chaque champ de formulaire */
+    }
+    
+    input[type="submit"] {
+      background-color: blue; /* Définit une couleur de fond bleue pour le bouton "Envoyer" */
+      color: white; /* Définit la couleur du texte du bouton "Envoyer" en blanc */
+      padding: 10px; /* Ajoute un espace intérieur de 10 pixels pour le bouton "Envoyer" */
+      border: none; /* Supprime la bordure du bouton "Envoyer" */
+      border-radius: 5px; /* Ajoute une bordure arrondie de 5 pixels au bouton "Envoyer" */
+      cursor: pointer; /* Définit un curseur de type "pointer" pour le bouton "Envoyer" pour indiquer qu'il est cliquable */
+    }
+    
+    input[type="submit"]:hover {
+      background-color: white; /* Change la couleur de fond du bouton "Envoyer" en blanc lorsqu'il est survolé par la souris */
+      color: blue; /* Change la couleur du texte du bouton "Envoyer" en bleu lorsqu'il est survolé par la souris */
+      border: 1px solid blue; /* Ajoute une bordure de couleur bleue au bouton "Envoyer" lorsqu'il est survolé par la souris */
+    }
+    
+
+
+	/* couleur */
+  header {
+    background-color: blue; /* Change la couleur de fond de l'en-tête en bleu */
+  }
+
+  footer {
+    background-color: blue; /* Change la couleur de fond du footer en bleu */
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }

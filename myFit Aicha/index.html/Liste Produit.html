@@ -1,0 +1,395 @@
+
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+      <!--Le lien php-->
+<script src="mn php connexion.php"></script>
+<script src="page de connexion.php"></script>
+
+    <meta charset="utf-8">
+    <title>boutique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+<link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">ss
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav">
+    <!--logo-->
+    <img src="../limage/logo.png" alt="" width="100" height="70">
+    <li class="nav-item">
+          <!--Les liens de mes pages-->
+      <a class="nav-link" href="Accueil.html">Accueil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Liste Produit.html">Liste Produit</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Page Produit.html">Page Produit</a>
+      <!--    <ul>
+          <li><a href="#">Sous-lien 1</a></li>
+          <li><a href="#">Sous-lien 2</a></li>
+          <li><a href="#">Sous-lien 3</a></li>
+        </ul>
+        -->
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Panier.html">Panier</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Paiement.html">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="histoire.html">Histoire</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Paiement.html">Paiement</a>
+    </li>
+ 
+  </ul>
+</div>
+
+<h2></h2>
+<p>
+    </p> 
+    </div>
+  </nav>
+</header>
+<br> <br><br><br><br>
+    <!-- Page d'accueil-->
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Des vêtements femme pour une silhouette inspirée. <span class="text-body-secondary">See for yourself.</span></h2>
+        <p class="lead">Du flou aérien d'une tendance bohème au volume structuré d'une inspiration femme d'affaires,
+          le vêtement pour femme met l'inspiration à l'honneur et l'humeur au beau fixe. Plutôt coquette en robe,
+           vous devenez rock en blouson. Carrément désinvolte en pantalon, vous voilà rayonnante en blazer. 
+           Un vaste programme pour les vêtements femme que nous vous dévoilons sur C&A afin de jouer de tous les charmes.
+           Pour une silhouette chic, les vêtements des femmes privilégient
+            bien entendu la jupe. 
+           Avec son vaste répertoire, elle permet d'aborder le style avec fantaisie. 
+           Un terrain idéal pour exprimer votre personnalité. Très structurée, 
+           la coupe crayon pourra jouer l'élégance avec un chemisier Lavallière
+            et une tendance estivale avec un t-shirt marinière. Plus rétro, la forme trapèze accroît
+             son élégance en puisant dans le vestiaire de genre. Esprit western avec la veste 
+             en jean ou inspiration ethnique avec la tunique brodée, elle s'affiche sur tous les fronts.
+             Quant au tombé fluide, il privilégie les matières nobles. En mousseline légère ou en matières scintillantes, la jupe corolle fait une entrée
+          remarquée dans la tenue cocktail avec le pull brodé de perles.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="../limage/accueil2.png" alt="Logo" width="800" height="400" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+
+      </div> 
+    </div>
+ 
+
+    <hr class="featurette-divider">
+    <!-- Les images populaire -->
+  
+<main>
+  <h2><center> Voici nos articles</h2> </center> <br>
+  <a href="commande.php"></a> 
+<?php  foreach($produit as $produit):?>
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+     
+          <br> <br> <br>
+       
+        <!-- IMAGE 1 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../limage/Robe longue.webp" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+         
+            <div class="card-body">
+              <p> Robe en satin</p>
+              <p class="card-text">            </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                </div>
+                <small class="text-body-secondary">30 €</small> <br><br>
+              
+              </div>
+              <a href="https://www.example.com/produit">Voir le produit</a>
+            </div>
+          </div>
+        </div> 
+<!-- IMAGE 2 -->
+<div class="col">
+  <div class="card shadow-sm">
+    <img src="../limage/balazer.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+    <div class="card-body">
+      <p> Blazer Kaki </p>
+    
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+        </div>
+        <small class="text-body-secondary">40 € </small>
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+                <!-- IMAGE 3 -->
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../limage/vetement.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+                    <p>  Blazer Noir</p>
+                    <div class="card-body">      </p>
+                      <p class="card-text">  </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                       </div>
+                        <small class="text-body-secondary">40 € </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+        <!-- IMAGE 4 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../limage/vetement1.png" class="bd-placeholder-img card-img-top" width="100%" height="200" alt="Ma superbe image">
+            <div class="card-body">
+              <p class="card-text">Trench beige</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                </div>
+                <small class="text-body-secondary">40 €</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+<br><br><br>
+
+        
+        <!-- IMAGE 5 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../limage/Robe2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+            <div class="card-body">
+              <p class="card-text">Robe en fente</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                </div>
+                <small class="text-body-secondary">20 €</small>
+              </div>
+            </div>
+          </div>
+        </div> <br><br><br><br><br>
+
+                <!-- IMAGE 6 -->
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../limage/talon3.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+                    <div class="card-body">
+                      <p class="card-text"> Rose Clair </p>      
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                        </div>
+                        <small class="text-body-secondary">15 € </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>   
+                <!-- IMAGE 7 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../limage/talon2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+            <div class="card-body">
+              <p class="card-text"> Talon en blanc    </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                </div>
+                <small class="text-body-secondary">20 €</small>
+              </div>
+            </div>
+          </div>
+        </div>  <br><br><br><br><br><br><br><br>
+        <!-- IMAGE 8 -->
+
+ <div class="col">
+  <div class="card shadow-sm">
+    <img src="../limage/talon4.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+    <div class="card-body">
+      <p class="card-text">Talon en Rose </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+        </div>
+        <small class="text-body-secondary">20 €</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+                <!-- IMAGE 9 -->
+
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../limage/talon5.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+                    <div class="card-body">
+                      <p class="card-text"> Claquette Noir</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                        </div>
+                        <small class="text-body-secondary">9 €</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- IMAGE 10 -->
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../limage/accessoire1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+                    <div class="card-body">
+                      <p class="card-text">Sac Noir</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+                        </div>
+                        <small class="text-body-secondary">25 €</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+  
+
+ <!-- IMAGE 8 -->
+
+ <div class="col">
+  <div class="card shadow-sm">
+    <img src="../limage/accessoire2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+    <div class="card-body">
+      <p class="card-text"> Sac Vert Clair</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+        </div>
+        <small class="text-body-secondary">29 €</small>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- IMAGE 8 -->
+
+ <div class="col">
+  <div class="card shadow-sm">
+    <img src="../limage/accessoir4.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+    <div class="card-body">
+      <p class="card-text"> Sac en coton</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">Ajouter</button>
+        </div>
+        <small class="text-body-secondary">29 €</small>
+      </div>
+    </div>
+  </div>
+</div>
+  
+                <!-- IMAGE 10 -->
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../limage/accessoir3.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Ma superbe image">
+                    <div class="card-body">
+                      <p class="card-text">Sac Beige</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">25 €</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</main>
+	 <!--
+<form action="page de connexion.php" method="POST">
+		
+		
+
+	
+  <label for="nom">nom:</label>
+      
+      
+  
+    
+  <input type="nom" name="nom" required><br><br>
+      
+      
+  
+    
+  <label for="prix">prix:</label>
+      
+      
+  
+    
+  <input type="prix" name="prix" required><br><br>
+      
+      
+     
+  <label for="description">description:</label>
+      
+    
+    
+  <input type="description" name="description" required><br><br>
+    
+  <input type="submit" value="Ajouter">
+    
+    
+  </form>  -->
+<br>  
+<footer class="bg-dark text-body-secondary py-5">
+  <div class="conteneur">
+  <p class="float-end mb-1">
+    <center> 
+  <a href="#">Retour en haut</a> </center>
+  </p>
+  <div>
+ 
+   <!--  ou lisez notre <a href="/docs/5.3/getting-started/int  --> 
+  </div>
+  <section> 
+    <a href="https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires">Mention legale </a> <br> <br>
+    <a href="  https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires ">Mention legale </a>
+
+    <a href="https://www.instagram.com/pimkie/"> </a>
+</footer>
+    </section>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+
+    
+<!-- Les liens des sites a reproduire 
+https://www.chicandmodesty.com/fr/
+https://www.chicandmodesty.com/fr/
+https://www.pimkie.fr/c-dressing-solaire?srule=rank1&start=0&sz=42
+https://www.primark.com/fr
+-->
+      
+  </body>
+</html>
